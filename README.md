@@ -8,8 +8,6 @@
 
 [![Release](https://img.shields.io/badge/RELEASE-AEGON-222?style=for-the-badge)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
 [![Discord](https://img.shields.io/badge/DISCORD-COMMUNITY-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
-[![FiveM](https://img.shields.io/badge/FIVEM-REFERENCE-ed1c24?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.net)
-<br />
 [![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
 
 ---
