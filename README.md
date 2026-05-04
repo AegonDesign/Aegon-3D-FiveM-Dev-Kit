@@ -6,12 +6,8 @@
 
 **Essential tools, Blender addons, and infrastructure for FiveM MLO creators.**
 
-[![Release](https://img.shields.io/badge/RELEASE-AEGON-222?style=for-the-badge)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
-[![Discord](https://img.shields.io/badge/DISCORD-COMMUNITY-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
-[![FiveM](https://img.shields.io/badge/FIVEM-REFERENCE-007fcc?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.net)
-<br />
 [![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE.md)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
 
 ---
 
@@ -40,7 +36,7 @@ This kit isn't just a collection of scripts; it's a high-performance pipeline de
 This repository is designed to help you move faster. Follow these essential steps for a professional MLO:
 
 1. **Mesh Cleanup (The Poly Pipeline):** The **Poly Optimizer** automatically merges overlapping vertices and ensures everything is triangulated for the game engine. *Tip: Run this as your final step before exporting.*
-2. **Texture Optimization (The Material Engine):** The **Material Optimizer** checks the actual data of your images (MD5 hashing). If it finds a match, it merges them to keep your MLO light and fast.
+2. **Texture Optimization (The Material Engine):** The **Material Optimizer** checks the actual data of your images (MD5 hashing). If it finds a match, it merges them into one.
 3. **Lighting & Exposure (UV Fixer):** If your model looks different in-game, the **UV Fixer** clamps Spec/Roughness values to industry standards so your lighting stays consistent.
 4. **Consistent Scaling (The Box Map):** The **Box Map Tool** normalizes the scale across all axes so your textures align perfectly in real-world scale.
 5. **Smart UV Stacking (Efficiency):** For repeated objects, **Smart UV Stack** stacks their UVs to give you higher resolution using less memory.
