@@ -11,7 +11,7 @@
 [![FiveM](https://img.shields.io/badge/FIVEM-REFERENCE-007fcc?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.net)
 <br />
 [![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE.md)
 
 ---
 
@@ -44,7 +44,7 @@ This repository is designed to help you move faster. Follow these essential step
 3. **Lighting & Exposure (UV Fixer):** If your model looks different in-game, the **UV Fixer** clamps Spec/Roughness values to industry standards so your lighting stays consistent.
 4. **Consistent Scaling (The Box Map):** The **Box Map Tool** normalizes the scale across all axes so your textures align perfectly in real-world scale.
 5. **Smart UV Stacking (Efficiency):** For repeated objects, **Smart UV Stack** stacks their UVs to give you higher resolution using less memory.
-6. **The "Pro" Boolean Workflow:** The **Aegon Boolean** system uses a non-destructive approach with "Weighted Normals" to keep your shading perfectly smooth.
+6. **The \"Pro\" Boolean Workflow:** The **Aegon Boolean** system uses a non-destructive approach with \"Weighted Normals\" to keep your shading perfectly smooth.
 
 ---
 
@@ -71,6 +71,7 @@ A practical solution for creators who want their work to stand out. 🎁
 ```text
 ├── Aegon Boolean.py            # Advanced Parametric Boolean System.
 ├── Aegon Poly Optimizer.py     # 4-Phase Mesh Optimization Pipeline.
+├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
 ├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
 ├── Aegon UV.py                 # Core UV Manipulation & Perfect Align.
 ├── Material Optimizer.py       # MD5 Hash-based Asset Deduplication.
