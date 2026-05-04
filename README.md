@@ -61,7 +61,7 @@ A practical solution for creators who want their work to stand out. 🎁
 
 *   **Universal Formats:** Includes HTML, Markdown, and BBCode versions.
 *   **Aesthetic First:** Designed to look premium on the Cfx.re forums.
-*   **Easy Integration:** See [aegon_forum_template.html](aegon_forum_template.html) for the full guide.
+*   **Easy Integration:** See [aegon_cfxre_template.html](aegon_cfxre_template.html) for the full guide.
 
 ---
 
@@ -74,7 +74,7 @@ A practical solution for creators who want their work to stand out. 🎁
 ├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
 ├── Aegon UV.py                 # Core UV Manipulation & Perfect Align.
 ├── Material Optimizer.py       # MD5 Hash-based Asset Deduplication.
-├── aegon_forum_template.html   # Universal Presentation Guide (HTML/MD).
+├── aegon_cfxre_template.html   # Universal Presentation Guide (HTML/MD).
 └── aegon_blender_add-on_pack.zip # Final Production Bundle.
 ```
 
