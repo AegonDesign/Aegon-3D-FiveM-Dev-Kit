@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="100%" />
+<img src="https://cdn.aegondesign.com/wysiwyg/1211819/699bd04a73ef7a133b7ff7782e11790c65dbfed5.webp" width="140" />
 
 # 🏛️ Aegon-3D-FiveM-Dev-Kit
 
