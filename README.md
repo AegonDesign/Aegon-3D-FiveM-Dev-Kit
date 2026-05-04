@@ -92,8 +92,8 @@ You are **100% free to sell** anything you create using these tools. I claim no 
 
 <div align="center">
 
-[Community Discord](https://discord.aegondesign.com) • [YouTube Tutorials](https://youtube.com/aegondesign)
+[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=333&height=60&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
 
 </div>
