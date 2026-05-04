@@ -1,0 +1,30 @@
+# Blender temporary files
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+*.blend_log
+*.blend_crash.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Aegon Reports & Logs
+Aegon_Error_Log.txt
+Aegon_UV_Fix_Report.txt
+Aegon_Texture_Found.txt
+Aegon_Texture_Report.txt
+Aegon_ClearNormals_Report.txt
+Aegon_Clamp_Report.txt
+material_report.json
+
+# Local env
+.env
+.vscode/
+.idea/
