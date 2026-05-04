@@ -50,7 +50,6 @@ A practical "copy-paste" solution for those who say *"My time is valuable, I jus
 
 ## ⚖️ The Talent is Yours, The Profit is Yours
 You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using these tools. I claim no rights or royalties over your artistic work. 🤝
-[Uploading aegon_cfxre_template.html…]()
 
 ---
 
@@ -63,6 +62,6 @@ You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using thes
 
 [Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer\" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
 
 </div>
