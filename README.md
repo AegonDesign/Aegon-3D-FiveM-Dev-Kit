@@ -90,10 +90,10 @@ You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using thes
 *   **Free Access:** Core Blender Addons and Forum Template are free right here. 🔓
 *   **Showcase & Support (€20):** If you'd like to support the project and get the ready-to-use server pack, visit [Tebex](https://fivem.aegondesign.com/package/7263327). 🪙
 
-<div align=\"center\">
+<div align="center">
 
 [Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
 
-<img src=\"https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer\" width=\"100%\" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
 
 </div>
