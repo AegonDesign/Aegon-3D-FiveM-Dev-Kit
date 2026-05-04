@@ -68,7 +68,7 @@ A practical "copy-paste" solution for those who say *"My time is valuable, I jus
 
 ---
 
-## 📂 Files in this Kit
+## 📂 [Aegon-3D-FiveM-Dev-Kit](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases/latest)
 
 ```text
 ├── Aegon Boolean.py            # Advanced Parametric Boolean System.
