@@ -34,7 +34,7 @@ These tools were built to solve common MLO production bottlenecks. Use this guid
 
 ## 📖 Learning the Workflow: From Manual to Automated
 
-This repository is designed to help you move faster. Instead of spending hours on technical cleanup, follow these steps:
+This repository is designed to help you move faster. Instead of spending hours on technical cleanup, follow these six essential steps:
 
 ### 1. Mesh Cleanup (The Poly Pipeline)
 Don't worry about messy geometry. The **Poly Optimizer** automatically follows a cleaning sequence to prepare models for the engine:
@@ -49,6 +49,18 @@ Duplicate textures are the main cause of lag. The **Material Optimizer** checks 
 
 ### 3. Lighting & Exposure (UV Fixer)
 If your model looks different in-game than in Blender, it's often due to "Spec/Roughness" values. The **UV Fixer** clamps these values to industry standards so your lighting stays consistent.
+
+### 4. Consistent Scaling (The Box Map)
+One of the most common mistakes is inconsistent texture sizing (e.g., one wall having huge bricks and another having tiny ones). The **Box Map Tool** normalizes the scale across all axes.
+*   *Workflow: Select your walls, run the tool, and your textures will align perfectly in real-world scale.*
+
+### 5. Smart UV Stacking (Efficiency)
+For objects like chairs, lights, or pillars that repeat many times, you don't want each one taking up its own space on the texture map. **Smart UV Stack** finds these identical pieces and stacks their UVs on top of each other.
+*   *Benefit: Higher texture resolution using the same amount of memory.*
+
+### 6. The "Pro" Boolean Workflow
+Cutting holes for windows or doors usually destroys your mesh normals. The **Aegon Boolean** system uses a non-destructive approach, keeping your cutters in a separate collection and automatically applying "Weighted Normals" to keep your shading smooth.
+*   *Workflow: Keep your modifiers active as long as possible for easy adjustments.*
 
 ---
 
