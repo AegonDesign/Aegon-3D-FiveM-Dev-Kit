@@ -30,20 +30,7 @@
 | **🖼️ Texture Exporter V2** | Professional .dds export system. | Multi-threading speed |
 | **📉 Material Optimizer** | Hash-based deduplication system. | Reduced RAM/VRAM |
 | **🚀 Poly Optimizer** | High-performance triangulation tools. | FPS Friendly |
-| **🔧 UV Fixer & Clamp** | Automated repair for missing UVs and lighting fixes. | No "Neon Glow" bugs |
-
----
-
-## 📖 Learning the Workflow: From Manual to Automated
-
-Follow these essential steps for a professional MLO:
-
-1. **Mesh Cleanup (The Poly Pipeline):** The **Poly Optimizer** automatically merges overlapping vertices and ensures everything is triangulated for the game engine. *Tip: Run this as your final step before exporting.*
-2. **Texture Optimization (The Material Engine):** The **Material Optimizer** checks the actual data of your images (MD5 hashing). If it finds a match, it merges them to keep your MLO light and fast.
-3. **Lighting & Exposure (UV Fixer):** If your model looks different in-game, the **UV Fixer** clamps Spec/Roughness values to industry standards so your lighting stays consistent.
-4. **Consistent Scaling (The Box Map):** The **Box Map Tool** normalizes the scale across all axes so your textures align perfectly in real-world scale.
-5. **Smart UV Stacking (Efficiency):** For repeated objects, **Smart UV Stack** stacks their UVs to give you higher resolution using less memory.
-6. **The "Pro" Boolean Workflow:** The **Aegon Boolean** system uses a non-destructive approach with "Weighted Normals" to keep your shading perfectly smooth.
+| **🔧 UV Fixer & Clamp** | Lighting and Spec/Roughness clamping. | Fixes engine exposure |
 
 ---
 
@@ -76,4 +63,10 @@ You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using thes
 * **Free Access:** Blender Addons and Forum Template are free on GitHub. 🔓
 * **Symbolic Support (€20):** Get the ready-to-use full set via [Tebex](https://fivem.aegondesign.com/package/7263327). 🪙
 
-<div align=\"center\">\n\n[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)\n\n<img src=\"https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer\" width=\"100%\" />\n\n</div>\n
+<div align="center">
+
+[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
+
+</div>
