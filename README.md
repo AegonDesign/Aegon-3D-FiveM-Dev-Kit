@@ -8,13 +8,16 @@
 
 [![Release](https://img.shields.io/badge/RELEASE-AEGON-222?style=for-the-badge)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
 [![Discord](https://img.shields.io/badge/DISCORD-COMMUNITY-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
-[![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
+[![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com)
 
 ---
 
 > "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line. This package is not a \"blessing from above\"; it is simply a toolkit prepared by a friend who has walked the same paths as you and wants to see you succeed. My only wish is for you to showcase your talent without being held back by technical hurdles. 🌟"
 
 </div>
+
+> [!IMPORTANT]
+> **Quick Installation:** Don't download files individually! For the best experience, download the **[aegon_blender_add-on_pack.zip](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases/latest)** from the Releases section and install it directly in Blender as a single pack. 📦🚀
 
 ## 🛠️ The Aegon Engine (Blender Addons)
 
@@ -89,11 +92,11 @@ You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using thes
 ## 💰 Access and Support
 
 *   **Free Access:** Blender Addons and Forum Template are free right here. 🔓
-*   **Support (€20):** If you'd like to support the project and get the ready-to-use server pack, visit [Tebex](https://fivem.aegondesign.com/package/7263327). 🪙
+*   **Support (€20):** If you'd like to support the project and get the ready-to-use server pack, visit [Tebex](https://fivem.aegondesign.com). 🪙
 
 <div align="center">
 
-[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
+[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.aegondesign.com) • [Showcase](https://play.aegondesign.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
 
