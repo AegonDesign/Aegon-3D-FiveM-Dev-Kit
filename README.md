@@ -12,7 +12,7 @@
 
 ---
 
-> "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line... My goal is to give you the leverage to cross that line with speed." 🌟
+> "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line. This package is not a \"blessing from above\"; it is simply a toolkit prepared by a friend who has walked the same paths as you and wants to see you succeed. My only wish is for you to showcase your talent without being held back by technical hurdles. 🌟"
 
 </div>
 
