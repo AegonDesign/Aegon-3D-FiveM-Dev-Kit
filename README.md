@@ -1,104 +1,87 @@
 <div align="center">
 
-<img src="https://cdn.aegondesign.com/wysiwyg/1211819/699bd04a73ef7a133b7ff7782e11790c65dbfed5.webp" width="140" />
+<img src="https://cdn.aegondesign.com/wysiwyg/1211819/699bd04a73ef7a133b7ff7782e11790c65dbfed5.webp" width="120" />
 
-# 🏛️ Aegon-3D-FiveM-Dev-Kit
+# 🏛️ Aegon 3D - FiveM Development Kit
 
-**Industrial-grade infrastructure, high-leverage Blender addons, and professional presentation tools for MLO creators.**
+**A collection of tools to automate manual 3D workflows and accelerate MLO creation.**
 
-[![Latest Release](https://img.shields.io/github/v/release/AegonDesign/Aegon-3D-FiveM-Dev-Kit?style=for-the-badge&color=FF8C00)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
-[![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
-[![FiveM](https://img.shields.io/badge/FiveM-Native_Ready-blue?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.net)
+[![Latest Release](https://img.shields.io/github/v/release/AegonDesign/Aegon-3D-FiveM-Dev-Kit?style=for-the-badge&color=222)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
+[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
+[![FiveM](https://img.shields.io/badge/FiveM-Reference-blue?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.net)
 
 ---
 
-> "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line... My goal is to give you the leverage to cross that line with speed." 🌟
+> "I spent years doing everything manually—every vertex, every UV, every optimization. My goal is to give you the tools that automate these tasks so you can focus on the art, not the technical struggle." 💡
 
 </div>
 
-## 🛠️ The Aegon Engine (Blender Addons)
+## 🛠️ Addon Collection & Usage Guide
 
-This kit is a high-performance 3D pipeline designed to eliminate technical overhead and maximize artistic throughput.
+These tools were built to solve common MLO production bottlenecks. Use this guide to understand how to apply them to your workflow.
 
-| Tool | Technical Core (Hard Analysis) | Production Impact |
+| Tool Name | What it does | How to use it best |
 | :--- | :--- | :--- |
-| **🟢 Aegon Boolean PRO** | **Parametric Modifier Manager & Slice Engine.** | Non-destructive cuts with auto-bevel/clean. |
-| **🧠 Smart UV Stack** | **Geometry Perimeter & Vertex Pattern Matching.** | Instant stacking for 100+ identical objects. |
-| **📉 Material Optimizer** | **MD5-based Image Content Deduplication.** | Merges thousands of duplicate textures by hash. |
-| **🚀 Poly Optimizer** | **4-Phase Sequence: Merge -> Dissolve -> Tris -> Clean.** | Guarantees GTA V engine-ready mesh topology. |
-| **🔧 UV Fixer & Clamp** | **Upstream Node-Tree Spec/Roughness Clamping.** | Eliminates "Neon Glow" & overexposure bugs. |
-| **📦 Aegon Box Map** | **Dynamic Scale Normalization & Axis Correction.** | Flawless texture scaling across variable scales. |
-| **🎯 Perfect Align** | **Coordinate-locked Face-to-UV vertex snapping.** | Millimeter-perfect trim-sheet alignment. |
+| **🟢 Boolean System** | Automates clean cuts & bevels. | Use it for doors/windows; it handles the cleanup for you. |
+| **🧠 Smart UV Stack** | Stacks identical UV islands instantly. | Select identical objects/faces and run to save texture space. |
+| **📉 Material Optimizer** | Merges duplicate materials via content. | Run before export to reduce your `.ytd` size and improve FPS. |
+| **🚀 Poly Optimizer** | Cleans geometry for GTA V engine. | Use after modeling to fix vertex overlaps & loose geometry. |
+| **🔧 UV Fixer & Clamp** | Fixes lighting & exposure issues. | Run if your textures look too bright or "glowy" in-game. |
+| **📦 Box Map Tool** | Normalizes texture scales on axes. | Best for walls/floors to ensure seamless texture tiling. |
+| **🎯 Perfect Align** | Snaps faces to UV coordinates. | Use for trim-sheets to get perfect pixel alignment. |
 
 ---
 
-## 🔬 Technical Deep Dive: Why Aegon?
+## 📖 Learning the Workflow: From Manual to Automated
 
-Most tools just "click and hope." Aegon tools use **Deterministic Logic** to ensure your MLOs never crash a player's game.
+This repository is designed to help you move faster. Instead of spending hours on technical cleanup, follow these steps:
 
-### 1. MD5 Content Hashing (Material Optimizer)
-Instead of checking filenames (which can be wrong), we read the raw binary data of every texture. If two textures are identical, we merge them.
-*   **Result:** Reduced .ytd size, lower VRAM usage, and zero redundant draw calls.
+### 1. Mesh Cleanup (The Poly Pipeline)
+Don't worry about messy geometry. The **Poly Optimizer** automatically follows a sequence I used to do manually:
+*   It merges overlapping vertices.
+*   It removes useless geometry.
+*   It ensures everything is triangulated for the game engine.
+*   *Tip: Run this as your final step before exporting.*
 
-### 2. The 4-Phase Geometry Pipeline (Poly Optimizer)
-We don't just "decimate." We follow a strict engineering sequence:
-1.  **Merge:** Fixes overlapping vertices from messy imports.
-2.  **Dissolve:** Removes useless edges that don't contribute to the shape.
-3.  **Triangulate:** Forces the engine-required 3-point face structure.
-4.  **Delete Loose:** Purges "ghost geometry" that causes culling bugs.
+### 2. Texture Optimization (The Material Engine)
+Duplicate textures are the main cause of lag. The **Material Optimizer** checks the actual data of your images (not just names). If it finds a match, it merges them into one. 
+*   *Goal: Keep your MLO light and fast for every player.*
 
-### 3. Parametric Boolean System (Aegon Boolean PRO)
-Our boolean system manages a dedicated `AEGON_Cutters` collection. It automatically applies **Weighted Normals** and **Bevel** modifiers post-operation to ensure perfect shading even on low-poly meshes.
-
----
-
-## 💻 1. FiveM Showcase Server (Fully Native)
-Unlike heavy, dependency-bloated packs, this server is **Pure Native**.
-
-*   **Zero Dependencies:** No QB-Core, ESX, or vRP required. 🍃
-*   **Performance Baseline:** Test MLOs in an environment that reflects true game performance.
-*   **Aegon Pre-set:** Pre-configured with 8 custom scripts for fly-throughs and lighting tests.
+### 3. Lighting & Exposure (UV Fixer)
+If your model looks different in-game than in Blender, it's often due to "Spec/Roughness" values. The **UV Fixer** clamps these values to industry standards so your lighting stays consistent.
 
 ---
 
-## 📄 2. Forum Presentation Guide
-A professional solution for creators who want their work to stand out. 🎁
+## 💻 Showcase & Presentation Tools
 
-*   **Universal Support:** Includes HTML, Markdown (Cfx.re), and BBCode versions.
-*   **Aesthetic First:** Premium dark-themed design to increase conversion rates on stores.
-*   **Easy Integration:** See [aegon_forum_template.html](aegon_forum_template.html) for the full guide.
+### 1. Native Showcase Server
+A clean environment to test your MLOs without the weight of heavy frameworks like QB or ESX. Just you and your creation.
+
+### 2. Presentation Template
+A simple guide to presenting your work. Includes HTML and Markdown formats for forums. (See [aegon_forum_template.html](aegon_forum_template.html))
 
 ---
 
-## 📂 Repository Structure
+## 📂 Files in this Kit
 
 ```text
-├── Aegon Boolean.py            # Advanced Parametric Boolean System.
-├── Aegon Poly Optimizer.py     # 4-Phase Mesh Optimization Pipeline.
-├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
-├── Aegon UV.py                 # Core UV Manipulation & Perfect Align.
-├── Material Optimizer.py       # MD5 Hash-based Asset Deduplication.
-├── aegon_forum_template.html   # Universal Presentation Guide (HTML/MD).
-└── aegon_blender_add-on_pack.zip # Final Production Bundle.
+├── Aegon Boolean.py            # Clean cut system.
+├── Aegon Poly Optimizer.py     # Automated cleanup pipeline.
+├── Aegon Texture - UV Fixer.py # Lighting & UV repair.
+├── Aegon UV.py                 # Mapping & Alignment tools.
+├── Material Optimizer.py       # Asset deduplication script.
+└── aegon_forum_template.html   # Universal presentation guide.
 ```
 
 ---
 
-## ⚖️ Your Creativity, Your Profit
-You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using these tools. I claim no rights or royalties. Your success is the project's success. 🤝
-
----
-
-## 💰 Support the Vision
-
-*   **Free Access:** Core tools are open-source right here. 🔓
-*   **Full Server Pack (€20):** Get the ready-to-run showcase server at [Tebex](https://fivem.aegondesign.com/package/7263327). 🪙
+## ⚖️ License & Philosophy
+You are **100% free to sell** anything you create using these tools. I claim no rights. I just want to see the community grow and create better MLOs. 🤝
 
 <div align="center">
 
-[Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
+[Community Discord](https://discord.aegondesign.com) • [YouTube Tutorials](https://youtube.com/aegondesign)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=333&height=60&section=footer" width="100%" />
 
 </div>
