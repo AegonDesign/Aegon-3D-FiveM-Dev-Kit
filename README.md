@@ -29,6 +29,7 @@ This kit isn't just a collection of scripts; it's a high-performance pipeline de
 | **📉 Material Optimizer** | Merges duplicate materials via content. | Run before export to reduce your `.ytd` size. |
 | **🚀 Poly Optimizer** | Cleans geometry for GTA V engine. | Fixes vertex overlaps & loose geometry. |
 | **🔧 UV Fixer & Clamp** | Fixes lighting & exposure issues. | Eliminates "Neon Glow" & overexposure bugs. |
+| **🖼️ Texture Exporter V2** | Professional .dds export system. | Multi-threading speed |
 
 ---
 
@@ -51,8 +52,9 @@ This repository is designed to help you move faster. Follow these essential step
 Unlike the heavy and dependent packs on the market, this server is built on a completely **Native (Pure)** structure.
 
 *   **Zero Dependencies:** No QB-Core, ESX, or vRP required. 🍃
-*   **Native Optimization:** Test MLOs in an environment that reflects true game performance.
-*   **Pre-configured:** Optimized for MLO testing and fly-throughs.
+*   **8 Custom Scripts:** Fully optimized essential tools. 📜
+*   **Maximum Performance:** Test MLOs with the highest possible FPS. 🏎️
+*   **Developer Friendly:** Clean infrastructure for custom work. 🛠️
 
 ---
 
@@ -70,17 +72,17 @@ A practical "copy-paste" solution for those who say *"My time is valuable, I jus
 ├── Aegon Boolean.py            # Advanced Parametric Boolean System.
 ├── Aegon Poly Optimizer.py     # 4-Phase Mesh Optimization Pipeline.
 ├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
-├── Aegon Texture - UV Fixer.py # Upstream Node-Tree Repair & Clamping.
 ├── Aegon UV.py                 # Core UV Manipulation & Perfect Align.
+├── Aegon Texture Exporter V2   # Professional .dds multi-threaded export.
 ├── Material Optimizer.py       # MD5 Hash-based Asset Deduplication.
-├── aegon_cfxre_template.html   # Universal Presentation Guide (HTML/MD).
-└── aegon_blender_add-on_pack.zip # Final Production Bundle.
+├── aegon_cfxre_template.html   # Ready-to-use forum presentation template.
+└── aegon_blender_add-on_pack.zip # Full installer for all Blender tools.
 ```
 
 ---
 
 ## ⚖️ The Talent is Yours, The Profit is Yours
-You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using these tools. I claim no rights or royalties over your artistic work. Your creativity, your business. 🤝
+You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using these tools. I claim no rights or royalties over your artistic work. 🤝
 
 ---
 
