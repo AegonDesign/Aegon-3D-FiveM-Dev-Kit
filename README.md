@@ -11,8 +11,6 @@
 
 ---
 
----
-
 > "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line..." 🌟
 
 </div>
