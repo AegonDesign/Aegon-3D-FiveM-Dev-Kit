@@ -16,8 +16,7 @@
 
 </div>
 
-> [!IMPORTANT]
-> **Quick Installation:** Don't download files individually! For the best experience, download the **[aegon_blender_add-on_pack.zip](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases/latest)** from the Releases section and install it directly in Blender as a single pack. 📦🚀
+
 
 ## 🛠️ The Aegon Engine (Blender Addons)
 
