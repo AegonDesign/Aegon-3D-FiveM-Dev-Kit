@@ -6,8 +6,12 @@
 
 **Essential tools, Blender addons, and infrastructure for FiveM MLO creators.**
 
-[![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
+[![Release](https://img.shields.io/badge/Release-v1.1-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
+[![FiveM](https://img.shields.io/badge/FiveM-Reference-informational?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.aegondesign.com)
+
+[![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
+[![License](https://img.shields.io/badge/License-Custom-brightgreen?style=for-the-badge)](LICENSE.md)
 
 ---
 
@@ -27,7 +31,7 @@ This kit isn't just a collection of scripts; it's a high-performance pipeline de
 | **🧠 Smart UV Stack** | Stacks identical UV islands instantly. | Select identical objects/faces and run to save texture space. |
 | **📉 Material Optimizer** | Merges duplicate materials via content. | Run before export to reduce your `.ytd` size. |
 | **🚀 Poly Optimizer** | Cleans geometry for GTA V engine. | Fixes vertex overlaps & loose geometry. |
-| **🔧 UV Fixer & Clamp** | Fixes lighting & exposure issues. | Eliminates "Neon Glow" & overexposure bugs. |
+| **🔧 UV Fixer & Clamp** | Fixes lighting & exposure issues. | Eliminates \"Neon Glow\" & overexposure bugs. |
 
 ---
 
@@ -87,10 +91,10 @@ You are **100% FREE TO SELL** anything you produce (Maps, MLOs, etc.) using thes
 *   **Free Access:** Blender Addons and Forum Template are free right here. 🔓
 *   **Support (€20):** If you'd like to support the project and get the ready-to-use server pack, visit [Tebex](https://fivem.aegondesign.com/package/7263327). 🪙
 
-<div align="center">
+<div align=\"center\">
 
 [Website](https://fivem.aegondesign.com) • [Discord](https://discord.aegondesign.com) • [Youtube](https://youtube.com/aegondesign) • [Showcase](https://play.aegondesign.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer" width="100%" />
+<img src=\"https://capsule-render.vercel.app/api?type=waving&color=FF8C00&height=60&section=footer\" width=\"100%\" />
 
 </div>
