@@ -38,12 +38,14 @@ This kit isn't just a collection of scripts; it's a high-performance pipeline de
 
 This repository is designed to help you move faster. Follow these essential steps for a professional MLO:
 
-1. **Mesh Cleanup (The Poly Pipeline):** The **Poly Optimizer** automatically merges overlapping vertices and ensures everything is triangulated for the game engine. *Tip: Run this as your final step before exporting.*
-2. **Texture Optimization (The Material Engine):** The **Material Optimizer** checks the actual data of your images (MD5 hashing). If it finds a match, it merges them to keep your MLO light and fast.
-3. **Lighting & Exposure (UV Fixer):** If your model looks different in-game, the **UV Fixer** clamps Spec/Roughness values to industry standards so your lighting stays consistent.
-4. **Consistent Scaling (The Box Map):** The **Box Map Tool** normalizes the scale across all axes so your textures align perfectly in real-world scale.
-5. **Smart UV Stacking (Efficiency):** For repeated objects, **Smart UV Stack** stacks their UVs to give you higher resolution using less memory.
-6. **The \"Pro\" Boolean Workflow:** The **Aegon Boolean** system uses a non-destructive approach with \"Weighted Normals\" to keep your shading perfectly smooth.
+| # | Phase | Process / Objective |
+| :--- | :--- | :--- |
+| **1** | **Mesh Cleanup** | **Poly Optimizer** automatically merges overlapping vertices and ensures everything is triangulated for the game engine. <br /> *Tip: Run this as your final step before exporting.* |
+| **2** | **Texture Optimization** | **Material Optimizer** checks the actual data of your images (MD5 hashing). If it finds a match, it merges them to keep your MLO light and fast. |
+| **3** | **Lighting & Exposure** | **UV Fixer** clamps Spec/Roughness values to industry standards so your lighting stays consistent. |
+| **4** | **Consistent Scaling** | **Box Map Tool** normalizes the scale across all axes so your textures align perfectly in real-world scale. |
+| **5** | **Smart UV Stacking** | **Smart UV Stack** stacks their UVs to give you higher resolution using less memory. |
+| **6** | **"Pro" Boolean Workflow** | **Aegon Boolean** system uses a non-destructive approach with "Weighted Normals" to keep your shading perfectly smooth. |
 
 ---
 
