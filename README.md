@@ -6,12 +6,8 @@
 
 **Essential tools, Blender addons, and infrastructure for FiveM MLO creators.**
 
-[![Release](https://img.shields.io/badge/Release-v1.1-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AegonDesign/Aegon-3D-FiveM-Dev-Kit/releases)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
-[![FiveM](https://img.shields.io/badge/FiveM-Reference-informational?style=for-the-badge&logo=fivem&logoColor=white)](https://fivem.aegondesign.com)
-
 [![Tebex](https://img.shields.io/badge/Tebex-Full_Pack-FF8C00?style=for-the-badge&logo=tebex&logoColor=white)](https://fivem.aegondesign.com/package/7263327)
-[![License](https://img.shields.io/badge/License-Custom-brightgreen?style=for-the-badge)](LICENSE.md)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.aegondesign.com)
 
 ---
 
