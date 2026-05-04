@@ -23,12 +23,13 @@ This kit isn't just a collection of scripts; it's a high-performance pipeline de
 
 | Tool | Technical Core | Impact |
 | :--- | :--- | :--- |
-| **📦 Aegon UVW Box Map** | Dynamic scale normalization. | No texture stretching on MLO walls. |
-| **🎯 Perfect Align** | Face-to-UV vertex snapping. | Professional trim-sheet alignment. |
-| **🧠 Smart UV Stack** | AI-driven pattern matching (Experimental). | Drastic reduction in texture memory. |
+| **📦 Aegon UVW Box Map** | Dynamic scale normalization & axis-correction. | No texture stretching on MLO walls. |
+| **🎯 Perfect Align** | Face-to-UV vertex snapping & stable rotation. | Professional trim-sheet alignment. |
+| **🧠 Smart UV Stack** | **Geometry Perimeter & Vertex Pattern Matching.** | Automatic UV stacking for identical parts. |
 | **🖼️ Texture Exporter V2** | Multi-threaded .dds compression. | 5x faster export times for large maps. |
 | **📉 Material Optimizer** | **MD5-based Image Deduplication.** | Merges duplicate assets by content hash. |
-| **🚀 Poly Optimizer** | **4-Phase Geometry Cleanup.** | Merge -> Dissolve -> Triangulate -> Clean. |
+| **🚀 Poly Optimizer** | **4-Phase Geometry Cleanup Pipeline.** | Merge -> Dissolve -> Triangulate -> Clean. |
+| **🔧 UV Fixer & Clamp** | **Upstream Deep Clamp Logic.** | Fixes spec/roughness lighting bugs in GTA. |
 
 ---
 
