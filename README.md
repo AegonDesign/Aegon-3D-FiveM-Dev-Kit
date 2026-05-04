@@ -12,7 +12,7 @@
 
 ---
 
-> "I spent years doing everything manually—every vertex, every UV, every optimization. My goal is to give you the tools that automate these tasks so you can focus on the art, not the technical struggle." 💡
+> "I know exactly what it feels like to have a vision but lack the tools or guidance to bring it to life. We have all been at that starting line... My goal is to give you the leverage to cross that line with speed." 🌟
 
 </div>
 
@@ -37,7 +37,7 @@ These tools were built to solve common MLO production bottlenecks. Use this guid
 This repository is designed to help you move faster. Instead of spending hours on technical cleanup, follow these steps:
 
 ### 1. Mesh Cleanup (The Poly Pipeline)
-Don't worry about messy geometry. The **Poly Optimizer** automatically follows a sequence I used to do manually:
+Don't worry about messy geometry. The **Poly Optimizer** automatically follows a cleaning sequence to prepare models for the engine:
 *   It merges overlapping vertices.
 *   It removes useless geometry.
 *   It ensures everything is triangulated for the game engine.
